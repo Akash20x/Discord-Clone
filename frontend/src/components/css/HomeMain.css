@@ -1,0 +1,57 @@
+.homeMain{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    background-color: #36393f;
+    color: white;
+}
+
+.homeMain__channelName {
+    font-size: 16px;
+    padding: 16px;
+    border-bottom: 1px solid rgba(0,0,0,0.4);
+    line-height: 14px;
+    font-weight: bold;
+}
+
+.homeMain__channelName span {
+    font-size: 26px;
+    margin: 0 8px;
+    color: #72767d;
+}
+
+.homeMain__msgsContainer {
+    padding: 16px;
+    flex: 1;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+.homeMain__msgSender {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 16px;
+}
+
+.homeMain__msgSender form button {
+    display: none;
+}
+
+.homeMain__msgSender form input {
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 1.8rem;
+    padding: 8px 16px;
+    margin-bottom: 24px;
+    background-color: #40444b;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    color: #dcddde;
+}
+
+.homeMain__scrollToBottom{
+    height: 100%;
+    width: 100%;
+}
